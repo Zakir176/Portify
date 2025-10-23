@@ -68,4 +68,6 @@ dotnet restore
 # Run the app
 dotnet run
 ```
+<h3 align="center">🌟 Built with passion by <a href="https://github.com/your-username">Zakir Hussein Motala</a></h3>
+```
 
