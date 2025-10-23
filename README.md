@@ -1,87 +1,72 @@
-# KwachaWise
+<h1 align="center">💼 Portify</h1>
 
-**Budget smarter. Spend wiser. Tailored for Zambian students.**
-
-An **offline-first**, student-friendly budgeting app that supports flexible income (HELSB, allowances, ad-hoc side hustles), localized in **Zambian Kwacha (ZMW)**, and generates printable PDF insights. Designed to be a showcase-ready GitHub project with modern architecture, analytics, and UI polish.
-
----
-
-##  Demo & Branding
-
-![KwachaWise Logo](./assets/logo.png)  
-*Logo: A sleek emblem integrating the ZMW currency symbol in a clean, modern layout—ideal for app icons and brand identity.*
+<p align="center">
+  <b>Your all-in-one investment tracker — smart, simple, and built for clarity.</b>
+</p>
 
 ---
 
-## Problem & Vision
+## 🚀 Overview
 
-- **Problem**: Many budgeting apps assume fixed salaries, USD-denominated displays, and rigid workflows—misaligned with the realities of Zambian students.
-- **Solution**: KwachaWise facilitates **variable incomes**, category-driven expense tracking, ZMW-native summaries, and printable reports with actionable insights—in an intuitive, offline-first experience.
+**Portify** is a clean, intuitive, and powerful portfolio tracker built with **.NET**.  
+It helps users manage and monitor all their investments — from stocks and crypto to forex, real estate, and commodities — all in one dashboard.
 
----
-
-## ​ Features
-
-- **Flexible Income Inputs**  
-  Track multiple monthly sources: bursaries, family support, campus hustles, refunds.
-
-- **Smart Expense Capture**  
-  Quick entries, recurring items, and group-split options tailored to student contexts (data, rent, social, transport).
-
-- **Insight-Powered Analytics**  
-  Visualize income vs expenses trends, detect spend spikes (>30% baseline filter), and get personalized cut suggestions—and highlight pocket leaks.
-
-- **Localized Currency & Reports**  
-  All interfaces and exports default to **Zambian Kwacha (ZMW)** using `en-ZM` formatting.
-
-- **PDF & CSV Export**  
-  Generate executive summaries featuring charts, insights, tips, and recommended category caps.
-
-- **Customizable Themes**  
-  Light/dark mode plus custom accent color—persisted per user.
-
-- **Offline-First Design**  
-  Full functionality with no internet; optional sync later.
-
-- **Accessibility and Performance**  
-  High-contrast UI, scalable fonts, fast load (PWA Lighthouse scores targeting ≥90), and lightweight footprint.
+With Portify, you can **see where your money goes, how it grows, and what drives your returns**.
 
 ---
 
-##  Tech Stack & Architecture
+## ✨ Key Features
 
-### Option A—PWA (Primary)
-
-| Layer      | Stack / Tool                          |
-|------------|----------------------------------------|
-| Frontend   | Vue 3 + Vite, Pinia (state), Tailwind UI |
-| Storage    | IndexedDB via Dexie                    |
-| Charts     | Chart.js / Recharts                    |
-| PDF Export | jsPDF / pdfmake + autoTable            |
-| Deployment | GitHub Pages via GitHub Actions        |
-
-### Option B—.NET MAUI (Future Native Wrapper)
-
-- UI: .NET MAUI XAML + MVVM
-- Storage: SQLite
-- PDF: Render via WebView → Native Print-to-PDF
-- Charts: SkiaSharp or Microcharts
+- 📊 **Unified Portfolio View** — Track all your assets in one place  
+- 💸 **Real-Time Prices** — Live updates from market APIs (stocks, crypto, forex)  
+- 📈 **Performance Insights** — View total gains, losses, and returns over time  
+- 🔔 **Custom Alerts** — Get notified when prices move or targets hit  
+- 🧠 **Smart Analytics** — Allocation, diversification, and trend insights  
+- 🌍 **Multi-Currency Support** — Convert all holdings into your base currency  
+- 🔐 **Secure by Design** — Data encryption and privacy-focused architecture  
 
 ---
 
-##  Architecture & Project Layout
+## 🧠 Tech Stack
 
-```text
-KwachaWise/
-├─ apps/
-│  └─ web/              # PWA frontend
-├─ packages/
-│  ├─ core/             # domain logic, analytics
-│  └─ ui/               # UI components
-├─ .github/
-│  └─ workflows/        # CI & deploy pipelines
-├─ docs/                # Design docs / user guides
-├─ scripts/             # Seed data + report generator
-├─ assets/              # Logo and screenshots
-├─ README.md
-└─ LICENSE
+| Layer | Technology |
+|-------|-------------|
+| Frontend | .NET MAUI / Blazor |
+| Backend | ASP.NET Core (C#) |
+| Database | SQLite / PostgreSQL |
+| APIs | Alpha Vantage, CoinGecko, or Yahoo Finance |
+| Authentication | ASP.NET Identity / JWT |
+| Charts & UI | LiveCharts2 / Chart.js |
+| Hosting | Azure / Docker |
+
+---
+
+## 🧩 Planned Modules
+
+- **Dashboard Overview**
+- **Investment Tracker**
+- **Market Data Integration**
+- **Reports & Analytics**
+- **Alerts & Notifications**
+- **Settings & Security**
+- **Dark & Light Themes**
+
+---
+
+## 🔧 Getting Started (coming soon)
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/portify.git
+
+# Navigate into the folder
+cd portify
+
+# Restore dependencies
+dotnet restore
+
+# Run the app
+dotnet run
+```
+<h3 align="center">🌟 Built with passion by <a href="https://github.com/your-username">Zakir Hussein Motala</a></h3>
+
