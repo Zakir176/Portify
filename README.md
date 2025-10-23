@@ -1,87 +1,69 @@
-# KwachaWise
+<h1 align="center">📊 .NET Portfolio Tracker</h1>
 
-**Budget smarter. Spend wiser. Tailored for Zambian students.**
-
-An **offline-first**, student-friendly budgeting app that supports flexible income (HELSB, allowances, ad-hoc side hustles), localized in **Zambian Kwacha (ZMW)**, and generates printable PDF insights. Designed to be a showcase-ready GitHub project with modern architecture, analytics, and UI polish.
-
----
-
-##  Demo & Branding
-
-![KwachaWise Logo](./assets/logo.png)  
-*Logo: A sleek emblem integrating the ZMW currency symbol in a clean, modern layout—ideal for app icons and brand identity.*
+<p align="center">
+  <b>A smart, modern portfolio tracker to manage all your investments — stocks, forex, crypto, real estate, and more — in one place.</b>
+</p>
 
 ---
 
-## Problem & Vision
+## 🚀 Overview
 
-- **Problem**: Many budgeting apps assume fixed salaries, USD-denominated displays, and rigid workflows—misaligned with the realities of Zambian students.
-- **Solution**: KwachaWise facilitates **variable incomes**, category-driven expense tracking, ZMW-native summaries, and printable reports with actionable insights—in an intuitive, offline-first experience.
-
----
-
-## ​ Features
-
-- **Flexible Income Inputs**  
-  Track multiple monthly sources: bursaries, family support, campus hustles, refunds.
-
-- **Smart Expense Capture**  
-  Quick entries, recurring items, and group-split options tailored to student contexts (data, rent, social, transport).
-
-- **Insight-Powered Analytics**  
-  Visualize income vs expenses trends, detect spend spikes (>30% baseline filter), and get personalized cut suggestions—and highlight pocket leaks.
-
-- **Localized Currency & Reports**  
-  All interfaces and exports default to **Zambian Kwacha (ZMW)** using `en-ZM` formatting.
-
-- **PDF & CSV Export**  
-  Generate executive summaries featuring charts, insights, tips, and recommended category caps.
-
-- **Customizable Themes**  
-  Light/dark mode plus custom accent color—persisted per user.
-
-- **Offline-First Design**  
-  Full functionality with no internet; optional sync later.
-
-- **Accessibility and Performance**  
-  High-contrast UI, scalable fonts, fast load (PWA Lighthouse scores targeting ≥90), and lightweight footprint.
+The **.NET Portfolio Tracker** is a cross-platform investment management tool built with **.NET MAUI / ASP.NET Core** (depending on platform).  
+It allows users to **track portfolio performance, asset allocation, and real-time values**, giving a complete view of personal wealth across markets.
 
 ---
 
-##  Tech Stack & Architecture
+## ✨ Key Features
 
-### Option A—PWA (Primary)
-
-| Layer      | Stack / Tool                          |
-|------------|----------------------------------------|
-| Frontend   | Vue 3 + Vite, Pinia (state), Tailwind UI |
-| Storage    | IndexedDB via Dexie                    |
-| Charts     | Chart.js / Recharts                    |
-| PDF Export | jsPDF / pdfmake + autoTable            |
-| Deployment | GitHub Pages via GitHub Actions        |
-
-### Option B—.NET MAUI (Future Native Wrapper)
-
-- UI: .NET MAUI XAML + MVVM
-- Storage: SQLite
-- PDF: Render via WebView → Native Print-to-PDF
-- Charts: SkiaSharp or Microcharts
+- 📈 **Real-time Price Updates** — Fetch live prices using APIs for stocks, crypto, and forex  
+- 💰 **Portfolio Overview** — See total value, growth, and performance over time  
+- 🔔 **Smart Alerts** — Get notifications when assets rise or fall by a target percentage  
+- 🧾 **Detailed Analytics** — View gains/losses, diversification, and risk metrics  
+- 🌍 **Multi-Asset Support** — Stocks, crypto, forex, commodities, and more  
+- 🧮 **Auto-Sync or Manual Entry** — Add assets manually or link APIs/wallets  
+- 🪙 **Currency Conversion** — Track everything in your preferred currency  
+- 💡 **Data Visualization** — Interactive charts and summaries for better insights  
+- 🔐 **Secure Storage** — Local or cloud-based data encryption for user safety  
 
 ---
 
-##  Architecture & Project Layout
+## 🧠 Tech Stack
 
-```text
-KwachaWise/
-├─ apps/
-│  └─ web/              # PWA frontend
-├─ packages/
-│  ├─ core/             # domain logic, analytics
-│  └─ ui/               # UI components
-├─ .github/
-│  └─ workflows/        # CI & deploy pipelines
-├─ docs/                # Design docs / user guides
-├─ scripts/             # Seed data + report generator
-├─ assets/              # Logo and screenshots
-├─ README.md
-└─ LICENSE
+| Layer | Technology |
+|-------|-------------|
+| Frontend | .NET MAUI / Blazor |
+| Backend | ASP.NET Core (C#) |
+| Database | SQLite / PostgreSQL |
+| APIs | Alpha Vantage, CoinGecko, or Yahoo Finance (for price data) |
+| Auth | ASP.NET Identity / JWT |
+| Charts | Chart.js / LiveCharts2 |
+| Hosting | Azure / Docker (optional) |
+
+---
+
+## 🧩 Planned Modules
+
+- **User Dashboard**
+- **Investment Tracker**
+- **API Integration Layer**
+- **Reports & Analytics**
+- **Portfolio Insights & Rebalancing**
+- **Transaction History**
+- **Settings & Security**
+
+---
+
+## 🔧 Getting Started (coming soon)
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/dotnet-portfolio-tracker.git
+
+# Navigate into the folder
+cd dotnet-portfolio-tracker
+
+# Restore dependencies
+dotnet restore
+
+# Run the app
+dotnet run
