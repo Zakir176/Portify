@@ -1,29 +1,29 @@
-<h1 align="center">📊 .NET Portfolio Tracker</h1>
+<h1 align="center">💼 Portify</h1>
 
 <p align="center">
-  <b>A smart, modern portfolio tracker to manage all your investments — stocks, forex, crypto, real estate, and more — in one place.</b>
+  <b>Your all-in-one investment tracker — smart, simple, and built for clarity.</b>
 </p>
 
 ---
 
 ## 🚀 Overview
 
-The **.NET Portfolio Tracker** is a cross-platform investment management tool built with **.NET MAUI / ASP.NET Core** (depending on platform).  
-It allows users to **track portfolio performance, asset allocation, and real-time values**, giving a complete view of personal wealth across markets.
+**Portify** is a clean, intuitive, and powerful portfolio tracker built with **.NET**.  
+It helps users manage and monitor all their investments — from stocks and crypto to forex, real estate, and commodities — all in one dashboard.
+
+With Portify, you can **see where your money goes, how it grows, and what drives your returns**.
 
 ---
 
 ## ✨ Key Features
 
-- 📈 **Real-time Price Updates** — Fetch live prices using APIs for stocks, crypto, and forex  
-- 💰 **Portfolio Overview** — See total value, growth, and performance over time  
-- 🔔 **Smart Alerts** — Get notifications when assets rise or fall by a target percentage  
-- 🧾 **Detailed Analytics** — View gains/losses, diversification, and risk metrics  
-- 🌍 **Multi-Asset Support** — Stocks, crypto, forex, commodities, and more  
-- 🧮 **Auto-Sync or Manual Entry** — Add assets manually or link APIs/wallets  
-- 🪙 **Currency Conversion** — Track everything in your preferred currency  
-- 💡 **Data Visualization** — Interactive charts and summaries for better insights  
-- 🔐 **Secure Storage** — Local or cloud-based data encryption for user safety  
+- 📊 **Unified Portfolio View** — Track all your assets in one place  
+- 💸 **Real-Time Prices** — Live updates from market APIs (stocks, crypto, forex)  
+- 📈 **Performance Insights** — View total gains, losses, and returns over time  
+- 🔔 **Custom Alerts** — Get notified when prices move or targets hit  
+- 🧠 **Smart Analytics** — Allocation, diversification, and trend insights  
+- 🌍 **Multi-Currency Support** — Convert all holdings into your base currency  
+- 🔐 **Secure by Design** — Data encryption and privacy-focused architecture  
 
 ---
 
@@ -34,22 +34,22 @@ It allows users to **track portfolio performance, asset allocation, and real-tim
 | Frontend | .NET MAUI / Blazor |
 | Backend | ASP.NET Core (C#) |
 | Database | SQLite / PostgreSQL |
-| APIs | Alpha Vantage, CoinGecko, or Yahoo Finance (for price data) |
-| Auth | ASP.NET Identity / JWT |
-| Charts | Chart.js / LiveCharts2 |
-| Hosting | Azure / Docker (optional) |
+| APIs | Alpha Vantage, CoinGecko, or Yahoo Finance |
+| Authentication | ASP.NET Identity / JWT |
+| Charts & UI | LiveCharts2 / Chart.js |
+| Hosting | Azure / Docker |
 
 ---
 
 ## 🧩 Planned Modules
 
-- **User Dashboard**
+- **Dashboard Overview**
 - **Investment Tracker**
-- **API Integration Layer**
+- **Market Data Integration**
 - **Reports & Analytics**
-- **Portfolio Insights & Rebalancing**
-- **Transaction History**
+- **Alerts & Notifications**
 - **Settings & Security**
+- **Dark & Light Themes**
 
 ---
 
@@ -57,16 +57,15 @@ It allows users to **track portfolio performance, asset allocation, and real-tim
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/dotnet-portfolio-tracker.git
+git clone https://github.com/your-username/portify.git
 
 # Navigate into the folder
-cd dotnet-portfolio-tracker
+cd portify
 
 # Restore dependencies
 dotnet restore
 
 # Run the app
 dotnet run
-
-<h3 align="center">🌟 Built with passion by <a href="https://github.com/your-username">Zakir Hussein Motala</a></h3>
 ```
+
