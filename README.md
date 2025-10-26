@@ -68,5 +68,30 @@ dotnet restore
 # Run the app
 dotnet run
 ```
+## 🧭 Features Overview
+
+Portify helps users track, analyze, and visualize all their investments from one dashboard.
+
+### 🖥️ Dashboard
+- Displays total portfolio value and daily change.
+- Visualizes allocation across assets (stocks, crypto, real estate, etc.).
+- Highlights top and worst performers at a glance.
+
+### 📊 Portfolio Detail
+- Lists all holdings with performance percentages.
+- Interactive performance graph over time.
+- Allows filtering by asset category or currency.
+
+### 💸 Transactions
+- Shows a chronological list of investment transactions.
+- Columns for Date, Asset, Type (Buy/Sell), Amount, and Status.
+- Supports search and filter for easy tracking.
+
+### ⚙️ Settings
+- Profile information and account preferences.
+- Notification controls and theme (light/dark) toggle.
+- Secure logout and future API-key integrations.
+
 <h3 align="center">🌟 Built with passion by <a href="https://github.com/your-username">Zakir Hussein Motala</a></h3>
+
 
