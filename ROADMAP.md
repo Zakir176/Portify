@@ -20,3 +20,10 @@
 - [ ] UI polish
 - [ ] Testing & feedback
 - [ ] Documentation for end users
+
+## 🧩 Tech Stack (Planned)
+- **Frontend:** .NET MAUI / Blazor Hybrid 
+- **Backend:** ASP.NET Core Web API  
+- **Database:** PostgreSQL / Supabase  
+- **APIs:** Finance & Market Data APIs (to fetch live prices)  
+- **Design:** Figma / Stable Diffusion Wireframes / Mid-Fidelity Prototypes
