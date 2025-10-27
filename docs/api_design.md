@@ -5,3 +5,10 @@ The Portify API provides endpoints to manage users, portfolios, and investment t
 ---
 
 ## 🧭 Base URL
+
+/api/v1
+
+---
+
+## 🔐 Authentication
+All endpoints (except `/auth/*`) require a valid JWT token in the header:
