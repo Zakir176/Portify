@@ -65,8 +65,7 @@ cd portify
 # Restore dependencies
 dotnet restore
 
-# Run the app
-dotnet run
+
 ```
 ## 🧭 Features Overview
 
