@@ -62,9 +62,6 @@ git clone https://github.com/your-username/portify.git
 # Navigate into the folder
 cd portify
 
-# Restore dependencies
-dotnet restore
-
 
 ```
 ## 🧭 Features Overview
